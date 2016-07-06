@@ -16,5 +16,5 @@ func main() {
 
 	posts, _ := gi.GetPosts()
 
-	json.NewEncoder(os.Stdout).Encode(posts)
+	json.NewEncoder(os.Stdout).Encode(posts[0])
 }
